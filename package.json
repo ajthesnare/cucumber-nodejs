@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-nodejs",
+  "version": "1.0.0",
+  "description": "Test some web stuff with cucumberjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajthesnare/cucumber-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajthesnare/cucumber-nodejs/issues"
+  },
+  "homepage": "https://github.com/ajthesnare/cucumber-nodejs#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0"
+  }
+}
