@@ -12,3 +12,5 @@ after_script:
   - npm run generate-report
 addons:
   artifacts: true
+    # ⋮
+    working_dir: reports
