@@ -5,7 +5,7 @@ cache: npm
 install:
   - npm install
 before_script:
-  - mkdir-p reports
+  - mkdir -p reports
 script:
   - npm test
 after_script:
