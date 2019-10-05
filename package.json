@@ -4,7 +4,8 @@
   "description": "Test some web stuff with cucumberjs",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js",
+    "generate-report": "node util/report"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ajthesnare/cucumber-nodejs#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "cucumber": "^5.1.0"
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.2"
   }
 }

@@ -1,6 +1,9 @@
 # Intellij Idea
 .idea/
 
+# Reports
+reports/
+
 # Logs
 logs
 *.log
